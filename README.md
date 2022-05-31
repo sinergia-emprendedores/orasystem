@@ -30,7 +30,7 @@ $ sudo yum clean all
 ```
 #### Instalación paquetes
 ```bash
-$ sudo dnf install zabbix-proxy-mysql zabbix-agent
+$ sudo yum install zabbix-proxy-mysql zabbix-agent
 ```
 #### Creación de la base de datos
 ```bash
