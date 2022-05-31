@@ -39,7 +39,7 @@ $ sudo yum install zabbix-proxy-mysql zabbix-agent
 mysql -uroot -p
 <password>
 mysql> create database zabbix character set utf8 collate utf8_bin;
-mysql> create user 'zabbix'@'<serverID>' identified with mysql_native_password by '<NewZabbixPassword>';
+mysql> create user 'zabbix'@'<serverID>' identified by '<NewZabbixPassword>';
 mysql> grant all privileges on zabbix.* to 'zabbix'@'<serverID>' with grant option;
 mysql> quit;
 ```
